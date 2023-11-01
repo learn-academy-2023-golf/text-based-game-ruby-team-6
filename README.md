@@ -29,6 +29,9 @@ Text-based games, or interactive fiction games, are one of the earliest styles o
 
 The most important part of this project is the planning phase. Work with your team to construct a storyline. Think of an idea that will make your game enjoyable. Common choices are treasure hunts, day-in-the-life stories, zombie apocalypse adventures, and murder mysteries.
 
+---Murder mystery "verb" pcik suspect for "interrogation"
+
+
 You need to decide how your user will interact with your code. Every option you present will need to be followed with an action. If you choose to create multiple storylines your code base will need to reflect all the possible actions. Each storyline can be a unique adventure in which some are successful and others are not.
 
 ### 🎮 Game Play
@@ -51,6 +54,20 @@ Have fun! This medium is prime for easter eggs and (class appropriate) inside jo
 Each team will give a brief (five minute) presentation of their application. Presenting your project will allow you to practice communication and coding vocabulary. Presentations are not a judgement of your work or ability as each team will have different weaknesses and strengths. Presentations allow other members of the cohort to appreciate a different approach to solving a complex problem.
 
 - Full team: show off your game and run through a couple of scenarios.
+
+
 - First team member: What was your team's planning process?
+
+first with a scenerio for our game and we came up with "Murder Mystery"
+Mapped out each section with paper and pen.
+use pseudo code to come up with methods. 
+(See photos for instruction of the layout)
+
+
 - Second team member: Show us one built in Ruby method your team used and explain what it is doing.
+
+suspects.each do |suspect| :We loop over each suspects, so that we can each of them question. We store the answer in a variable, and use the variable to analyzed user inputs and their answers. 
+
 - Third team member: What did your team get stuck on and how did you overcome this challenge?
+
+Create a quit or exit game if mistakes were made or want to leave the game early. We wanted to comeback and wanted to add it or the next demo or challenges. 
